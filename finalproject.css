@@ -1,5 +1,5 @@
-label{font-weight:bold;}
+label{font-weight:bold;text-align:center;}
 #btn{margin-bottom:4%;}
-#container{margin-top:2%;margin-left:0%;height:40%;}
+#container{margin-top:2%;margin-left:40%;height:40%;width:100%;}
 #para{text-align:center;font-family:Comic Sans MS;margin-top:2%;font-weight:bold;}
  h1{font-family:Comic Sans MS;color:white;}
