@@ -5,10 +5,10 @@ var lat = "";
         //var city = "";
         
             $("#zonebt").click(function(){
-            var a = "http://api.timezonedb.com/v2.1/get-time-zone?key=WKARYNHI4BSU&format=json&by=position&lat="+lat+"&lng="+lon;
+            var a = "http://api.timezonedb.com/v2.1/get-time-zone?key=&format=json&by=position&lat="+lat+"&lng="+lon;
            
                  console.log(lat);
-                $.getJSON("http://api.timezonedb.com/v2.1/get-time-zone?key=WKARYNHI4BSU&format=json&by=position&lat="+lat+"&lng="+lon, function(json)
+                $.getJSON("http://api.timezonedb.com/v2.1/get-time-zone?key=&format=json&by=position&lat="+lat+"&lng="+lon, function(json)
                 {
                 
                     console.log(json);
@@ -39,7 +39,7 @@ var lat = "";
       //else     myFunction(this);
         //     alert("error");
   };
-  xhttp.open("GET", "http://api.openweathermap.org/data/2.5/weather?q="+city+"&units=imperial&appid=6665087d49917d19ab88cc716c4bc1f3", true);
+  xhttp.open("GET", "http://api.openweathermap.org/data/2.5/weather?q="+city+"&units=imperial&appid=", true);
   xhttp.send();
 }
 function myFunction(json) {
