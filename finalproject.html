@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>Final Project</title>
+        <meta charset="utf-8"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        
+        <link rel="stylesheet" type="text/css" href="finalproject.css">
+        
+        <script src="finalproject.js"></script>
+        
+    </head>
+    
+     <body>
+        <div class="card text-center">
+            <div class="card-header" style="background-color:MediumSeaGreen;font-family:serif;color:white;">
+                <h1>TIME-WEATHER</h1>
+            </div>
+        </div>
+        
+            <div id="container">
+                <form>
+                    <div >
+                        <label for="cityname">CITY NAME:</label>
+                        <input type="text"  id="cityname" name="cityname" placeholder="Toronto" value=""/>
+                    </div>
+           
+                    <div>
+                        <button type="submit" id="zonebt" name="submit">GET TIME-ZONE</button>
+                    </div>
+                    
+                    <div >
+                        <label for="timezone" >TIME-ZONE:</label>
+                        <p id="timezone"></p>                       
+                    </div>
+                    
+                    <div>
+                        <button type="submit" id="zonebt1"  name="submit" onclick="loadDoc()">GET CURRENT WEATHER</button>
+                    </div>
+                    
+                    <div>                        
+                        <label for="maxtemp">MAX-TEMP:</label>                        
+                        <p id="maxtemp"></p>
+                    </div>
+                    
+                    <div>
+                        <label for="mintemp">MIN-TEMP:</label>
+                        <p id="mintemp"></p>                                            
+                    </div>
+                    
+                    <div>
+                        <label for="description" >DESCRIPTION:</label>
+                        <p id="description"></p>
+                    </div>
+                
+                </form>
+            </div>
+        
+            <div class="card text-center">
+                 <div class="card-footer text-muted" style="background-color:darkgrey;">
+                    <h4>copyright@2020, TIME-WEATHER</h4>
+                </div>
+            </div>
+       
+    </body>
+</html>
