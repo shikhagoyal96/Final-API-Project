@@ -30,9 +30,10 @@
           console.log(lat);
           
             //RETRIEVEING THE VALUE FROM THE JSON FILE OF THE FIRST API
-            document.getElementById("demo").innerHTML =  "<h6>"+ "Max-Temp(Fahrenheits):"+ "</h6>"+ myObj.main["temp_max"] 
-                                               + "<h6>"+ "Min-Temp(Fahrenheits):" + "</h6>"+ myObj.main["temp_min"]
+                document.getElementById("demo").innerHTML =  "<h6>"+ "Max-Temp(&#8457;):"+ "</h6>"+ myObj.main["temp_max"] 
+                                               + "<h6>"+ "Min-Temp(&#8457;):" + "</h6>"+ myObj.main["temp_min"] 
                                                + "<h6>"+ "Weather Description :" + "</h6>"+ myObj.weather[0]["description"];
+            
         }
 
         $(document).ready(function(){
