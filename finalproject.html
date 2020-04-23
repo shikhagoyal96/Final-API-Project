@@ -18,29 +18,49 @@
             <div class="card-header" style="background-color:MediumSeaGreen;">
                 <h1>TIME-WEATHER</h1>
             </div>
+            <nav id="main_navigation">
+						<ul id="main_menu">
+							<li>
+								<a href="#">About US</a>
+							</li>
+							<li>
+								<a href="#">Categories</a>
+							</li>
+							<li><a href="finalproject2.html">Sign-In</a></li>	
+						</ul>
+					</nav>
         </div>    
             <div>
                 <h3 id="para">TIME-WEATHER site is a very helpful website in helping any user to get to know the current 
                     temperatures, weather and time-zone of any city entered by them.</h3>
             </div>
+            <div id="container2">
+                <p>
+                    <h4>STEPS to follow - </h4>
+                    <li>Write the cityname in the textbox</li>
+                    <li>To get the weather update of the city mentioned click the "GET WEATHER" button</li>
+                    <li>Then click the "GET TIME-ZONE" button to know the current time-zone of the city</li>    
+                </p>
+            </div>
             <div id="container">
-                <div class="form-group col-md-2">
+                <div class="form-group col-md-4">
                     <label for="cityname">CITY-NAME</label>
                     <input type="text" id="cityname" name="cityname" class="form-control" />
                 </div>
-                <div class="form-group col-md-2">
+                <div class="form-group col-md-4">
                     <div id="btn">
                         <button id="zonebt1" onclick="loadDoc()" class="btn btn-primary">GET WEATHER</button>
                     </div>
                     <div id="demo" class="form-group col-md-16"></div>
                 </div>
-                <div class="form-group col-md-2">
+                <div class="form-group col-md-4">
                     <div id="btn">
                         <button id="zonebt" class="btn btn-primary">GET TIME-ZONE</button>
                     </div>
                     <div id="timezone" class="form-group col-md-16"></div>
                 </div>
             </div>
+            
             
         <div class="card text-center">   
             <div class="card-footer text-muted" style="background-color:darkgrey;">
@@ -49,3 +69,4 @@
         </div>       
     </body>
 </html>
+
